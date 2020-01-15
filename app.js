@@ -8,10 +8,6 @@ const shopRoutes = require("./routes/shop");
 // running express
 const app = express();
 
-// setting the configuration for PUG
-// app.set("view engine", "pug");
-// app.set("views", "views");
-
 // setting the configuration for EJS
 app.set("view engine", "ejs");
 app.set("views", "views");
